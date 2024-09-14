@@ -1,0 +1,11 @@
+10/06/23 01:17:44#Administrator#admin@gmail.com#🔴 Logout
+10/06/23 01:17:46#Administrator#admin@gmail.com#🟢 Login
+10/06/23 01:18:20#Administrator#admin@gmail.com#🔴 Logout
+10/06/23 01:18:22#Administrator#admin@gmail.com#🟢 Login
+12/06/23 11:32:22#Administrator#admin@gmail.com#🟢 Login
+12/06/23 11:43:21#Administrator#admin@gmail.com#🔴 Logout
+12/06/23 11:43:23#Administrator#admin@gmail.com#🟢 Login
+12/06/23 11:43:28#Administrator#admin@gmail.com#🔴 Logout
+12/06/23 11:43:29#Administrator#admin@gmail.com#🟢 Login
+12/06/23 11:43:34#Administrator#admin@gmail.com#🔴 Logout
+12/06/23 11:43:35#Administrator#admin@gmail.com#🟢 Login
