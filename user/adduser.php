@@ -97,7 +97,7 @@ if (!$_SESSION['typeUser'] == "Administrator") {
         if ($pass1 == $pass2) {
             //$pass1=md5($pass1);
             require '../config.php';
-            $sql = "INSERT INTO `users` (`image`,`nom`, `email`, `pass`, `typeUser`) VALUES ('$target_file','$name', '$email', '$pass1', '$usertype');";
+            $sql = "INSERT INTO `users` (`image`,`name`, `email`, `pass`, `typeUser`) VALUES ('$target_file','$name', '$email', '$pass1', '$usertype');";
             mysqli_query($cn, $sql) or die(mysqli_error($cn));
             mysqli_close($cn);
             echo 'user has been saved';

@@ -183,14 +183,14 @@ if (!$_SESSION['typeUser'] == "Administrator")
 									<td>
 									<?php if($line[5] != "Administrator"){ ?>
 										<a href="deleteuser.php?id=<?php echo $line[0] ?>">
-											<button type="button" class="btn-danger">
+											<button type="button" class="btn-danger p-1 rounded-pill">
 												<i class="mdi mdi-delete me-2 fw-bold">DELETE</i>
 											</button>
 										</a>
 									<?php }?>
 
 										<a href="edituser.php?id=<?php echo $line[0] ?>">
-											<button type="button" class="btn-warning my-1">
+											<button type="button" class="btn-warning my-1 p-1 rounded-pill">
 												<i class="mdi mdi-pen me-4 text-dark fw-bold">EDIT</i>
 											</button>
 										</a>

@@ -118,7 +118,7 @@ if (isset($_POST['edit'])) {
     }
 
     require '../config.php';
-    $sql = "UPDATE `users` SET `image` = '$img', `nom` = '$nom', `email` = '$email', `pass` = '$pass', `typeUser` = '$typeUser' WHERE `id` = $id;";
+    $sql = "UPDATE `users` SET `image` = '$img', `name` = '$nom', `email` = '$email', `pass` = '$pass', `typeUser` = '$typeUser' WHERE `id` = $id;";
     mysqli_query($cn, $sql) or die(mysqli_error($cn));
     mysqli_close($cn);
 

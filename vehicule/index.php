@@ -184,40 +184,40 @@ header('location:../user/login.php'); ?>
 								</td>
 
 								<td>
-								<?php if($line[7] == "Available") {?>
+								<?php if($line[6] == "Available") {?>
 								<label class="badge badge-gradient-success">
-								<?php echo $line[7] ?>
+								<?php echo $line[6] ?>
 								</label>
 								<?php }else{ ?>
 								<label class="badge badge-gradient-danger">
-								<?php echo $line[7] ?>
+								<?php echo $line[6] ?>
 								</label>
 								<?php } ?>
 								</td>
 
 								<td>
-									<?php if($line[7] == "Available") {?>
+									<?php if($line[6] == "Available") {?>
 										<a href="reserve.php?id=<?php echo $line[0] ?>">
-										<button type="button" class="btn-success">
+										<button type="button" class="btn-success rounded-pill fw-bolder text-light p-1">
 												<i class="mdi mdi-grid mx-2">Reserve</i>
 												</button>
 										</a>
 									<?php }else{ ?>
 										<a href="unreserve.php?id=<?php echo $line[0] ?>">
-										<button type="button" class="btn-success">
+										<button type="button" class="btn-success rounded-pill fw-bolder text-light p-1">
 												<i class="mdi mdi-grid mx-2">Unreserve</i>
 												</button>
 										</a>
 										<?php } ?>
 
 									<a href="delete.php?id=<?php echo $line[0] ?>">
-										<button type="button" class="btn-danger">
+										<button type="button" class="btn-danger rounded-pill fw-bolder text-light p-1">
 											<i class="mdi mdi-delete mx-2">DELETE</i>
 											</button>
 									</a>
 
 									<a href="edit.php?id=<?php echo $line[0] ?>">
-									<button type="button" class="btn-primary">
+									<button type="button" class="btn-primary rounded-pill fw-bolder text-light p-1">
 											<i class="mdi mdi-pen mx-2">EDIT</i>
 											</button>
 									</a>
